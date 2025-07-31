@@ -1,0 +1,497 @@
+body.projekte {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: 'Actor', 'Regular';
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+  header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#logo {
+  width: 75px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.nav-btn {
+  background: none;
+  color: #007A93;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  color: #444294;
+}
+
+#Einleitung {
+  text-align: center;
+  font-size: medium;
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+#Projektbereich {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+h1{
+     text-align: center;
+     font-size: xx-large;
+}
+
+h2{
+   text-align: center;
+   font-size: large; 
+}
+
+.highlight {
+  color: #0BA5C6;
+}
+
+.projekt-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.projekt-container p {
+  flex: 2;
+  text-align: left;
+  max-width: 475px;
+  margin-left: 114px;
+}
+
+.image-box {
+  flex: 1;
+  text-align: center;
+  margin-right: 125px;
+}
+
+.arbeit-caption {
+    font-size: 9px;         
+    color: #fff;           
+    text-align: center;
+    margin-top: 8px;
+}
+
+.arbeit-caption a {
+    color: #fff;            
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.arbeit-caption a:hover {
+    color: #ffffff;           
+    text-decoration: underline;
+}
+
+.arbeit-bild {
+    width: 175px;
+    height: auto;
+    border-radius: 16px;
+}
+
+
+footer {
+  max-width: 800px;         
+  margin: 0 auto;             
+  padding: 40px 20px;         
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px dashed #333;
+  width: 1000px;
+  margin: 40px 0 0;
+}
+
+.footer-block {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.footer-block a {
+  text-align: center;
+  margin-left: 10px;
+  
+}
+
+.footer-copy {
+  text-align: center;
+  width: 100%;
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 30px;
+}
+
+}
+
+
+
+body.galerie {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: 'Actor', 'Regular';
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+  header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#logo {
+  width: 75px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.nav-btn {
+  background: none;
+  color: #007A93;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  color: #444294;
+}
+
+#Einleitung {
+  text-align: center;
+  font-size: medium;
+  margin: 60px auto;
+  max-width: 400px;
+}
+
+.galerie {
+  display: flex;
+  gap: 20px; /* Abstand zwischen den Spalten */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.spalte {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Abstand zwischen Bildern in einer Spalte */
+}
+
+.spalte img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+footer {
+  max-width: 800px;         
+  margin: 0 auto;             
+  padding: 40px 20px;         
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px dashed #333;
+  width: 1000px;
+  margin: 40px 0 0;
+}
+
+.footer-block {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.footer-block a {
+  text-align: center;
+  margin-left: 10px;
+  
+}
+
+.footer-copy {
+  text-align: center;
+  width: 100%;
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 30px;
+}
+}
+
+
+
+body.about {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: 'Actor', 'Regular';
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+  header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#logo {
+  width: 75px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.nav-btn {
+  background: none;
+  color: #007A93;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  color: #444294;
+}
+
+.rethink-container {
+  max-width: 800px;
+  margin: 120px auto 0 auto; /* oben 60px, horizontal zentriert */
+  position: relative;
+  text-align: center;
+}
+
+.rethink-text {
+  font-size: 4rem; /* größer */
+  font-style: italic;
+  color: #eaeaff;
+  text-shadow: 2px 2px 2px #6a5acd;
+  margin: 0;
+}
+
+.reflection {
+  transform: scaleY(-1);
+  opacity: 0.7;          /* höher für bessere Lesbarkeit */
+  margin-top: 10px;
+  filter: blur(0.7px);   /* weniger unscharf */
+  color: #cfd4ff;        /* etwas dunkler als Original */
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+
+.about-me {
+  display: flex;
+  gap: 40px;
+  max-width: 600px;
+  margin: 120px 200px 1px;
+  color: #eee;
+}
+
+.text-narrow {
+  max-width: 600px;
+  margin: 40px auto 20px;
+  color: #eee;
+  line-height: 1.6;
+  padding: 0 20px;
+  /* Damit rechts komplett frei bleibt, zentrieren wir nur horizontal */
+}
+
+.text-wide {
+  max-width: 1000px;
+  margin: 20px auto 40px;
+  color: #eee;
+  line-height: 1.6;
+}
+
+.about-me h2 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  
+  margin: auto 20px;
+  width: 375px;
+}
+
+.highlight {
+  color: #00a9c0; /* türkisblau */
+}
+
+.about-me ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about-me ul li {
+  margin-bottom: 8px;
+}
+
+.image {
+  width: 300px;       /* gewünschte Quadratgröße */
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;   /* beschneidet und füllt quadratisch */
+  border-radius: 24px;
+}
+
+.image {
+  width: 100%;
+  height: 175px;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  padding: 150px;
+  scroll-behavior: smooth;
+}
+
+.image img {
+  width: 300px;              /* Einheitliche Breite */
+  height: 300px;
+  flex: 0 0 auto;       /* jedes Bild nimmt die volle Breite ein */
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+
+.about-me2 {
+  max-width: 800px;
+  margin-left: 240px;
+  color: #eee;
+}
+
+.hobby h2{
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  margin-left: 215px;
+}
+
+.collage img {
+  width: 275px;       
+  height: auto;
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px;
+  align-items: left;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.highlight2 {
+  color: #6F5BA4; 
+}
+
+.zukunft h2{
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  margin-left: 275px;
+}
+
+.zukunft p{
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+footer {
+  max-width: 800px;         
+  margin: 0 auto;             
+  padding: 40px 20px;         
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px dashed #333;
+  width: 1000px;
+  margin: 40px 0 0;
+}
+
+.footer-block {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.footer-block a {
+  text-align: center;
+  margin-left: 10px;
+  
+}
+
+.footer-copy {
+  text-align: center;
+  width: 100%;
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 30px;
+}
+}
+
+
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 0; 
+  border-left: 1px dashed #6F5BA4; 
+  z-index: 999;
+  opacity: 0.6;
+}
+
+body::before {
+  left: 12vw;
+}
+
+body::after {
+  right: 12vw;
+}
+
+
